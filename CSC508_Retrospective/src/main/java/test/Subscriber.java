@@ -24,7 +24,7 @@ public class Subscriber {
         Socket socket = null;
         ObjectInputStream objectInputStream = null;
         int maxRetries = 5;
-        int retryInterval = 2000;
+        int retryInterval = 5000;
         int attempts = 0;
 
         while (attempts < maxRetries) {
